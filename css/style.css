@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+nav a {
+    font-family: "Charis SIL", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 1rem;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #700B00;
+}
+
+.text {
+    color: #000000;
+    font-family: "Charis SIL", serif;
+    font-weight: 455;
+    font-style: normal;
+    padding: 1.3rem;
+    text-align: center;
+    font-size: 26px;
+}
+
+.project-description {
+  max-width: 480px;
+  margin-left: 40px; /*For the marign left and right google said 40px on the right side while left stays auto but to make it on the the other side of the screen I switched both.*/
+  margin-right: auto; 
+  text-align: left;
+}
+
+p, h2 {
+    padding: 1rem;
+}
+
+p {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+
+h2 {
+    font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.images {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: 40px;
+    flex-direction: column;
+    display: flex;
+    gap: 12px;
+}
+
+.two-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Aligns the top of both columns */
+    gap: 28px;
+}
+
+.row-one {
+    display: flex;
+  gap: 15px; /* Adds space between the two images */
+  align-items: center; /* Keeps them vertically aligned if their heights differ */
+  margin: 15px 0;
+}
+
+.row-two {
+    display: flex;
+  gap: 15px; /* Adds space between the two images */
+  align-items: center; /* Keeps them vertically aligned if their heights differ */
+  margin: 15px 0;
+}
